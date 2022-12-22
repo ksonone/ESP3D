@@ -367,10 +367,10 @@ typedef enum {
 
 //default values
 #define DEFAULT_WIFI_MODE           AP_MODE
-const char DEFAULT_AP_SSID []  PROGMEM =        "ESP3D";
-const char DEFAULT_AP_PASSWORD [] PROGMEM = "12345678";
-const char DEFAULT_STA_SSID []  PROGMEM =       "ESP3D";
-const char DEFAULT_STA_PASSWORD [] PROGMEM =    "12345678";
+const char DEFAULT_AP_SSID []  PROGMEM =        "PBR-3D";
+const char DEFAULT_AP_PASSWORD [] PROGMEM = "8754321";
+const char DEFAULT_STA_SSID []  PROGMEM =       "PBR_3D";
+const char DEFAULT_STA_PASSWORD [] PROGMEM =    "87654321";
 const byte DEFAULT_STA_IP_MODE  =               DHCP_MODE;
 const byte DEFAULT_AP_IP_MODE =                 STATIC_IP_MODE;
 const byte DEFAULT_IP_VALUE[]   =           {192, 168, 0, 1};
